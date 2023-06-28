@@ -25,7 +25,7 @@ public class MovieManager {
 
     public String[] findLastFive() {
         int resultlength;
-        if (movies.length < 5) {
+        if (movies.length < limit) {
             resultlength = movies.length;
         } else {
             resultlength = limit;
